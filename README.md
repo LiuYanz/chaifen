@@ -1,7 +1,7 @@
 # chaifen
 ## 将以整张图片拆分成九张图片，组成九宫格样式
 ### 拆分前
-![拆分前](https://github.com/LiuYanz/chaifen/blob/master/li/13.png)
+![拆分前](https://github.com/LiuYanz/chaifen/blob/master/li/13.jpg)
 ### 拆分后
 <table>
 	<tr>
