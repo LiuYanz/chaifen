@@ -11,7 +11,7 @@ def fill_image(image):
     new_image = Image.new(image.mode, (new_image_length, new_image_length), color='white')
     # 将之前的图粘贴在新图上，居中
     if width > height:  # 原图宽大于高，则填充图片的竖直维度
-        new_image.paste(image, (0, int((new_image_length - height) / 2))) 二元组表示粘贴上图相对下图的起始位置
+        new_image.paste(image, (0, int((new_image_length - height) / 2))) #二元组表示粘贴上图相对下图的起始位置
     else:
         new_image.paste(image, (int((new_image_length - width) / 2), 0))
     return new_image
