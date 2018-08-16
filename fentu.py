@@ -38,7 +38,7 @@ def save_images(image_list):
     index = 1
     for image in image_list:
         # 更改图片的位置
-        image.save(r'C:\' + str(index) + '.png', 'PNG')
+        image.save(r'C:\' + str(index)' + '.png', 'PNG')
         index += 1
 
 
